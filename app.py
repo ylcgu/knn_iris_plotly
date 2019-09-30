@@ -90,7 +90,7 @@ def display_figure(val0, val1):
     neighbors=list(model.kneighbors(new_observation0)[1][0])
     df_neighbors=train.iloc[neighbors, :]
 
-    brights = ['red', 'blue', 'yellow', 'white'] # https://www.canva.com/learn/100-color-combinations/
+    brights = ['organge', 'green', 'purple', 'grey'] # https://www.canva.com/learn/100-color-combinations/
 
     trace1 = go.Scatter(
         x = train['pl'],
@@ -118,10 +118,10 @@ def display_figure(val0, val1):
         mode = 'markers',
         marker=dict(
             size=12,
-            color='lightgreen',
-            symbol = 'pentagon',
+            color='darkgreen',
+            symbol = 'triangle',
             line=dict(
-                color='darkblue',
+                color='dlightblue',
                 width=1.5),
         )
     )
