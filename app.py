@@ -119,7 +119,7 @@ def display_figure(val0, val1):
         marker=dict(
             size=12,
             color='darkgreen',
-            symbol = 'triangle',
+            symbol = 'pentagon',
             line=dict(
                 color='dlightblue',
                 width=1.5),
